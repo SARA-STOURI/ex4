@@ -1,0 +1,19 @@
+gho=input("entrez la masse volumique")
+    g=input("entrez la gravité")
+    h=input("entrer la hauteur")
+    L=input("enter langeur")
+    l=input("enter la largeur")
+    
+try:
+    gho=float(gho)
+    g=float(g)
+    h=float(h)
+    L=float(L)
+    l=float(l)
+    S=L*l
+    P=go*g*h
+    print("la pression est:",P,"pa")
+    F=P*S
+    print("la force est:",F,"N")
+except:
+    print("la valeur de la force que vous avez donné est pas correct")
